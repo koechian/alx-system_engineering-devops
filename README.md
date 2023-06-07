@@ -82,3 +82,7 @@ A repo fro ALX DevOps related tasks.
 ## Task 101
 
     - Create a script that removes all files in the current working dir that end with character ~
+
+## Task 102
+
+    - Create a script that creates the directories welcome/, welcome/to/ and welcome/to/school in the current directory.
