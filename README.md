@@ -79,14 +79,18 @@ A repo fro ALX DevOps related tasks.
 
 # Advanced Tasks
 
-## Task 100
+## Task 15
 
     - Create a script that moves all files that start with an uppercase letter to /tmp/u
 
-## Task 101
+## Task 16
 
     - Create a script that removes all files in the current working dir that end with character ~
 
-## Task 102
+## Task 17
 
     - Create a script that creates the directories welcome/, welcome/to/ and welcome/to/school in the current directory.
+
+## Task 19
+
+    - Create a magic file that identifies School data files. School data files always contain SCHOOL at offset 0
