@@ -79,6 +79,10 @@ A repo fro ALX DevOps related tasks.
 
 # Advanced Tasks
 
+## Task 100
+
+    - Create a script that moves all files that start with an uppercase letter to /tmp/u
+
 ## Task 101
 
     - Create a script that removes all files in the current working dir that end with character ~
