@@ -1,0 +1,24 @@
+#!/bin/bash
+
+cwd=$(pwd)
+cd ../
+destination_dir=$(pwd)
+cd $cwd
+echo $destination_dir
+echo $(pwd)
+
+# Loop through HTML files in the source directory
+for file in $(pwd)/*.html; do
+    # Extract the filename
+    filename=$(basename "$file")
+    # Check if the file already exists in the destination directory
+    if [[ -e "$destination_dir/$filename" ]]; then
+        # Compare modification times of source and destination files
+        if [[ "$file" -nt "$destination_dir/$filename" ]]; then
+            cp "$file" "$destination_dir/$filename"
+        fi
+    else
+        # Copy the file to the destination directory
+        cp "$file" "$destination_dir/$filename"
+    fi
+done
