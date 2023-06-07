@@ -1,3 +1,2 @@
 #!/bin/bash
-for file in $(pwd)/*~; do filename=$(basename "$file") rm $filename 
-done
+for file in $(pwd)/*~; do filename=$(basename "$file") rm $filename done
