@@ -41,3 +41,32 @@ A repo fro ALX DevOps related tasks.
 
     - create a script that moves the file betty from /tmp to /tmp/my_first_directory
     - mv /tmp/betty /tmp/my_first_directory
+
+## Task 8
+
+    - create a script that deletes the file betty
+    - rm /tmp/my_first_directory/betty
+
+## Task 9
+
+    - create a script that deletes my_first_directory
+    - rm -r /tmp/my_first_directory
+
+## Task 10
+
+    - create a script that moves back to the previous directory
+    - cd ../
+
+## Task 11
+
+    - Write a script that lists all files (even ones with names beginning with a period character, which are normally hidden) in the current directory and the parent of the working directory and the /boot directory (in this order), in long format.
+
+## Task 12
+
+    - create a script that prints the type of a file
+    - file
+
+## Task 13
+
+    - create a script that creates a symbolic link of the command ls
+    - ln -s /bin/ls __ls__
