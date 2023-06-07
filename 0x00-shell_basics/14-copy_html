@@ -1,9 +1,7 @@
 #!/bin/bash
 
-cwd=$(pwd)
-cd ../
-destination_dir=$(pwd)
-cd $cwd
+cwd=$(pwd) cd ../ 
+destination_dir=$(pwd) cd $cwd 
 echo $destination_dir
 echo $(pwd)
 
