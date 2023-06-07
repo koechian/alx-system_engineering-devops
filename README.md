@@ -76,3 +76,9 @@ A repo fro ALX DevOps related tasks.
     - Create a script that copies all the HTML files from the current working directory to the parent of the working directory, but only copy files that did not exist in the parent of the working directory or were newer than the versions in the parent of the working directory.
 
     - You can consider that all HTML files have the extension .html
+
+# Advanced Tasks
+
+## Task 101
+
+    - Create a script that removes all files in the current working dir that end with character ~
